@@ -1,0 +1,52 @@
+.circle-death {
+    fill: rgb(247, 18, 18);
+}
+
+.circle-population {
+    fill: rgb(46, 65, 235);
+}
+
+.circle-death:hover{
+    fill: rgb(221, 121, 90);
+    cursor: pointer;
+}
+.circle-population:hover {
+    fill: rgb(118, 153, 248);
+    cursor: pointer;
+}
+.label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px; 
+    fill: black; 
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+
